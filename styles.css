@@ -1,0 +1,119 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #0c0808;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color:#fff;
+    text-decoration: none;
+} 
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10;
+    display: inline-block;
+    width: 30%;
+}
+
+footer {
+    background: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#social-media {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#social-media h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-buttons img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-buttons a:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0077b5;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        width: 90%;
+    }
+
+    .social-buttons img {
+        width: 40px;
+        height: 40px;
+    }
+}
